@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Comienza el Header */
+
+header{
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.logo-home{
+    width: 220px;
+    padding-top: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: darkgray;
+}
+
+/* Empieza en Main */
+
+main{
+    height: 100%;
+    background-color: #e0e0e0;
+    width: 100%;
+}
+
+.diseno{
+    padding-bottom: 600px;
+}
+
+
+.cajaContenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.cajaContenedor2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-hijo1{
+    width: 400px;
+    height: 300px;
+}
+
+.caja-hijo2{
+    width: 400px;
+    height: 300px;
+}
+
+/* página Diseño */
+
+#diseno{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    padding-top: 200px;
+    margin: 0 60px;
+}
+
+#diseno .contenedor-imagen,
+#diseno .contenedor-texto{
+    width: 100%;
+}
+
+#diseno .contenedor-imagen{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#diseno .contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#diseno .contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #434343;
+    color: white;
+    padding: 60px;
+}
+
+#diseno .contenedor-texto h3{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#diseno .contenedor-texto p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 25px;
+}
+
+#diseno .contenedor-texto a{
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    width: fit-content;
+}
+
+#diseno .contenedor-texto a:hover{
+    background-color: black;
+    color: white;
+}
+
+#diseno2{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin: 0 60px;
+}
+
+#diseno2 .contenedor-imagen2,
+#diseno2 .contenedor-texto2{
+    width: 100%;
+}
+
+#diseno2 .contenedor-imagen2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#diseno2 .contenedor-imagen2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#diseno2 .contenedor-texto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 60px;
+}
+
+#diseno2 .contenedor-texto2 h3{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#diseno2 .contenedor-texto2 p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 25px;
+}
+
+#diseno2 .contenedor-texto2 a{
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    width: fit-content;
+}
+
+#diseno2 .contenedor-texto2 a:hover{
+    background-color: black;
+    color: white;
+}
+
+#diseno3{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin: 0 60px;
+}
+
+#diseno3 .contenedor-imagen3,
+#diseno3 .contenedor-texto3{
+    width: 100%;
+}
+
+#diseno3 .contenedor-imagen3{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#diseno3 .contenedor-imagen3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#diseno3 .contenedor-texto3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #626262;
+    color: white;
+    padding: 60px;
+}
+
+#diseno3 .contenedor-texto3 h3{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#diseno3 .contenedor-texto3 p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 25px;
+}
+
+#diseno3 .contenedor-texto3 a{
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    width: fit-content;
+    cursor: pointer;
+}
+
+#diseno3 .contenedor-texto3 a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Comienza Ilustración */
+
+
+#galeria{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    padding-top: 200px;
+    margin-left: 20%;
+}
+
+#galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+#galeria img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/* Conienza el formulario de contacto */
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    padding-top: 200px;
+}
+
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.container-form a i{
+    color: #1b1b1b;
+    margin-right: 15px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form form textarea{
+    max-width: 530;
+    min-width: 530;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #1b1b1b;
+    color: white;
+    border-radius: 3px;
+    transition: all 300ms ease;
+}
+
+.container-form .btn-enviar:hover{
+    background: #434343;
+}
+
+.container-form iframe{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* Comienza Sobre mi */
+
+.about{
+    width: 100%;
+    padding-top: 200px;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: black;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.about-text h5{
+    color: #1b1b1b;
+    font-size: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+span{
+    color: #626262;
+}
+
+.about-text p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #1b1b1b;
+    color: white;
+    border-radius: 3px;
+    transition: all 300ms ease;
+}
+
+button:hover{
+    background: #434343;
+}
+
+/* Comienza el footer */
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.lista{
+    font-size: 12px;
+    color: white;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 50px 0px  0px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social i{
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #1A1A1A;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 12px;
+}
+
+.navbar-toggler{
+    border: 0 !important;
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+.navbar .navbar-expand-lg .bg-body-tertiary{
+    margin: 0 20px;
+}
+
+@media (max-width:480px){
+    main{
+        height: 100%;
+    }
+    .cajaContenedor{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 150px;
+        box-sizing: border-box;
+    }
+    .cajaContenedor2{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .caja-hijo1{
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+    }
+    .caja-hijo1 img{
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja-hijo2 img{
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+    }
+    .caja-hijo2{
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+    }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+        position: relative;
+    }
+    .navbar-brand img{
+        max-width: 90%;
+    }
+    .navbar-collapse{
+        flex-grow: unset;
+    }
+    .pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: unset;
+    }
+    .container-form{
+        max-width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 150px;
+    }
+    .container-form h2{
+        font-size: 25px;
+    }
+    .container-form a{
+        font-size: 16px;
+    }
+    .container-form form .campo, textarea{
+        width: 90%;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .container-form form textarea{
+        max-width: 350;
+        min-width: 350;
+        max-height: 160px;
+    }
+    .container-form .btn-enviar{
+        font-size: 15px;
+    }
+    .container-form iframe{
+        margin-top: 20px;
+        border: 1px solid black;
+        border-radius: 3px;
+        max-width: 90%;
+    }   
+}
+   
