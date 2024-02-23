@@ -47,7 +47,7 @@ header a:hover{
 /* Empieza en Main */
 
 main{
-    height: 100%;
+    height: unset;
     background-color: #e0e0e0;
     width: 100%;
 }
@@ -72,6 +72,7 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .caja-hijo1{
@@ -520,6 +521,10 @@ button:hover{
     border: 0 !important;
 }
 
+.navbar-toggler button:hover{
+    background: none;
+}
+
 .navbar-collapse{
     flex-grow: unset;
 }
@@ -529,13 +534,11 @@ button:hover{
 }
 
 @media (max-width:480px){
-    main{
-        height: 100%;
-    }
     .cajaContenedor{
         width: auto;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding-top: 150px;
         box-sizing: border-box;
     }
@@ -544,33 +547,34 @@ button:hover{
         flex-direction: column;
         justify-content: center;
         box-sizing: border-box;
+        padding-bottom: 100px;
     }
     .caja-hijo1{
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         justify-content: center;
     }
     .caja-hijo1 img{
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         justify-content: center;
         align-items: center;
     }
     .caja-hijo2 img{
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         justify-content: center;
     }
     .caja-hijo2{
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         justify-content: center;
     }
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
+        grid-gap: 20px;
+        padding: 0px 0px 40px 0px;
         position: relative;
     }
     .navbar-brand img{
@@ -578,6 +582,9 @@ button:hover{
     }
     .navbar-collapse{
         flex-grow: unset;
+    }
+    .nav-link{
+        text-align: right;
     }
     .pie-pagina .grupo-1 .box figure{
         width: 100%;
