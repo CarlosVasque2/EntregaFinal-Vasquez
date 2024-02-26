@@ -95,6 +95,7 @@ main{
 
 .diseno{
     padding-bottom: 100px;
+    padding-top: 200px;
 }
 
 
@@ -132,7 +133,6 @@ main{
     display: flex;
     flex-direction: row;
     height: 400px;
-    padding-top: 200px;
     margin: 0 60px;
 }
 
@@ -322,9 +322,10 @@ main{
 #galeria{
     display: flex;
     width: 1000px;
-    height: 600px;
+    height: 900px;
     padding-top: 200px;
-    margin-left: 20%;
+    margin-left: 18%;
+    margin-right: 18%;
     padding-bottom: 100px;
 }
 
