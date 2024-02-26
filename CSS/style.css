@@ -165,7 +165,7 @@ main{
 #diseno .contenedor-texto h3{
     text-align: left;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #diseno .contenedor-texto p{
@@ -227,7 +227,7 @@ main{
 #diseno2 .contenedor-texto2 h3{
     text-align: left;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #diseno2 .contenedor-texto2 p{
@@ -289,7 +289,7 @@ main{
 #diseno3 .contenedor-texto3 h3{
     text-align: left;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #diseno3 .contenedor-texto3 p{
@@ -359,7 +359,8 @@ main{
 
 .container-form h2{
     margin-bottom: 15px;
-    font-size: 35px;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .container-form p{
@@ -449,7 +450,8 @@ main{
 
 .about-text h1{
     color: black;
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -563,7 +565,7 @@ button:hover{
 }
 
 
-@media (max-width:480px){
+@media (max-width:576px){
     .cajaContenedor{
         width: auto;
         flex-direction: column;
@@ -628,7 +630,8 @@ button:hover{
         padding-top: 150px;
     }
     .container-form h2{
-        font-size: 25px;
+        font-size: 30px;
+        font-weight: 600;
     }
     .container-form a{
         font-size: 16px;
