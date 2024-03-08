@@ -408,7 +408,7 @@ main{
     outline: 0px;
     background: #1b1b1b;
     color: white;
-    border-radius: 3px;
+    border-radius: 8px;
     transition: all 300ms ease;
 }
 
@@ -479,7 +479,7 @@ button{
     outline: 0px;
     background: #1b1b1b;
     color: white;
-    border-radius: 3px;
+    border-radius: 8px;
     transition: all 300ms ease;
 }
 
@@ -566,6 +566,12 @@ button:hover{
 
 
 @media (max-width:576px){
+
+    .diseno{
+        padding-bottom: 100px;
+        padding-top: 150px;
+    }
+
     .cajaContenedor{
         width: auto;
         flex-direction: column;
@@ -655,5 +661,42 @@ button:hover{
         border-radius: 3px;
         max-width: 90%;
     }   
+
+    #diseno{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 15px 25px;
+    }
+    #diseno2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0 25px;
+    }
+    #diseno3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 15px 25px;
+    }
+    #diseno .contenedor-texto{
+        padding: 40px;
+    }
+    #diseno2 .contenedor-texto2{
+        padding: 40px;
+    }
+    #diseno3 .contenedor-texto3{
+        padding: 40px;
+    }
+    #diseno .contenedor-imagen{
+        height: unset;
+    }
+    #diseno2 .contenedor-imagen2{
+        height: unset;
+    }
+    #diseno3 .contenedor-imagen3{
+        height: unset;
+    }
 }
    
