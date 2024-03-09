@@ -631,7 +631,7 @@ button:hover{
     .container-form{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
+        padding-left: 25px;
         padding-top: 150px;
     }
     .container-form h2{
@@ -659,6 +659,7 @@ button:hover{
         border: 1px solid black;
         border-radius: 3px;
         max-width: 90%;
+        margin: 0 auto;
     }   
 
     #diseno{
@@ -719,6 +720,27 @@ button:hover{
         text-align: center;
         width: auto;
         height: auto;
+    }
+
+    .about{
+        padding-top: 150px;
+    }
+    .about img{
+        width: 360px;
+    }
+    .about-text{
+        width: unset;
+        padding-top: 30px;
+    }
+    .about-text p{
+        text-align: justify;
+    }
+    .main{
+        width: auto;
+        flex-direction: column;
+        justify-content: unset;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
    
