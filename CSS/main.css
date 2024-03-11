@@ -323,6 +323,10 @@ main {
 .about button :hover {
   background: #434343;
 }
+.about button a {
+  color: white;
+  text-decoration: none;
+}
 
 .main {
   width: 1130px;
