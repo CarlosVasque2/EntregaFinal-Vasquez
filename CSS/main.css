@@ -608,6 +608,9 @@ main {
     text-align: center;
     width: auto;
     height: auto;
+    cursor: crosshair;
+    opacity: 1;
+    filter: contrast(120%);
   }
 }
 
