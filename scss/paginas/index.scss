@@ -1,6 +1,10 @@
 .diseno{
     padding-bottom: 100px;
     padding-top: 200px;
+    @include media-query-mobile{
+        padding-bottom: 100px;
+        padding-top: 150px;
+    }
 }
 
 
@@ -11,9 +15,28 @@
     align-items: center;
     justify-content: center;
     padding-top: 200px;
+    @include media-query-mobile{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        box-sizing: border-box;
+    }
     .caja-hijo1{
         width: 400px;
         height: 300px;
+        @include media-query-mobile{
+            width: 90%;
+            height: 90%;
+            text-align: center;
+        }
+        img{
+            width: 90%;
+            height: 90%;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
 
@@ -24,8 +47,25 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
+    @include media-query-mobile{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-bottom: 100px;
+    }
     .caja-hijo2{
         width: 400px;
         height: 300px;
+        @include media-query-mobile{
+            width: 90%;
+            height: 90%;
+            text-align: center;
+        }
+        img{
+            width: 90%;
+            height: 90%;
+            justify-content: center; 
+        }
     }
 }

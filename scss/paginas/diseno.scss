@@ -1,12 +1,29 @@
+.diseno {
+  padding-bottom: 100px;
+  padding-top: 200px;
+  @include media-query-mobile{
+    padding-top: 150px;
+  }
+}
+
 #diseno {
     display: flex;
     flex-direction: row;
     height: 400px;
     margin: 0 60px;
+    @include media-query-mobile{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin: 15px 25px;
+    }
     .contenedor-imagen {
       height: 100%;
       width: 100%;
       object-fit: cover;
+      @include media-query-mobile{
+        height: unset;
+      }
       img {
         width: 100%;
         height: 100%;
@@ -21,6 +38,9 @@
       color: white;
       padding: 60px;
       width: 100%;
+      @include media-query-mobile{
+        padding: 40px;
+      }
       h3 {
         text-align: left;
         font-size: 40px;
@@ -54,10 +74,19 @@
     flex-direction: row;
     height: 400px;
     margin: 0 60px;
+    @include media-query-mobile{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin: 0 25px;
+    }
     .contenedor-imagen2 {
       height: 100%;
       width: 100%;
       object-fit: cover;
+      @include media-query-mobile{
+        height: unset;
+      }
       img {
         width: 100%;
         height: 100%;
@@ -72,6 +101,9 @@
       color: white;
       padding: 60px;
       width: 100%;
+      @include media-query-mobile{
+        padding: 40px;
+      }
       h3 {
         text-align: left;
         font-size: 40px;
@@ -105,11 +137,20 @@
     flex-direction: row;
     height: 400px;
     margin: 0 60px;
-    .contenedor-imagen3 {
+    @include media-query-mobile{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin: 15px 25px;
+    }
+    .contenedor-imagen3{
       height: 100%;
       width: 100%;
       object-fit: cover;
-      img {
+      @include media-query-mobile{
+        height: unset;
+      }
+      img{
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -123,6 +164,9 @@
       color: white;
       padding: 60px;
       width: 100%;
+      @include media-query-mobile{
+        padding: 40px;
+      }
       h3 {
         text-align: left;
         font-size: 40px;

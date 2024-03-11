@@ -68,6 +68,9 @@ header{
     img {
         width: 220px;
         padding-top: 0px;
+        @include media-query-mobile{
+          max-width: 90%;
+        }
       }
   }
   
@@ -79,4 +82,10 @@ header{
     padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .nav-link{
+    @include media-query-mobile{
+      text-align: right;
+    }
   }
