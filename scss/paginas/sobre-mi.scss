@@ -9,7 +9,7 @@
         height: auto;
         width: 420px;
         @include media-query-mobile{
-            width: 360px;
+            width: 300px;
         }
         @include media-query-tablet{
             width: 530px;

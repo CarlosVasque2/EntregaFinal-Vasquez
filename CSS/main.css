@@ -288,7 +288,7 @@ main {
 }
 @media (max-width: 576px) {
   .about img {
-    width: 360px;
+    width: 300px;
   }
 }
 @media (max-width: 768px) {
