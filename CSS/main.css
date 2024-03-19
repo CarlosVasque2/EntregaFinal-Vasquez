@@ -293,7 +293,7 @@ main {
 }
 @media (max-width: 768px) {
   .about img {
-    width: 530px;
+    width: 360px;
   }
 }
 .about .about-text {
