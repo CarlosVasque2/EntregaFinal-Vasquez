@@ -88,4 +88,7 @@ header{
     @include media-query-mobile{
       text-align: right;
     }
+    @include media-query-tablet{
+      text-align: right;
+    }
   }

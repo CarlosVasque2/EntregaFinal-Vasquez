@@ -40,6 +40,9 @@
                 }
                 img{
                     width: 200px;
+                    @include media-query-tablet{
+                        margin-left: 15px;
+                    }
                 }
             }
             h2{
@@ -75,6 +78,9 @@
         color: #ffffff;
         small{
             font-size: 12px;
+            @include media-query-tablet{
+                font-size: 14px;
+            }
         }
     }
 }

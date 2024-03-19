@@ -14,6 +14,11 @@
         padding-top: 150px;
         margin: 0 auto;
     }
+    @include media-query-tablet{
+        width: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     img{
         width: 0px;
         flex-grow: 1;

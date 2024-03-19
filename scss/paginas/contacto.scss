@@ -15,6 +15,12 @@
       padding-top: 150px;
       padding-bottom: 100px;
     }
+    @include media-query-tablet{
+      display: flex;
+      flex-direction: column;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
     h2{
         margin-bottom: 15px;
         font-size: 40px;
@@ -59,6 +65,9 @@
         font-size: 14px;
         margin-bottom: 15px;
       }
+      @include media-query-tablet{
+        font-size: 17px;
+      }
     }
   
     form textarea {
@@ -70,6 +79,9 @@
         max-width: 100%;
         min-width: 350;
         max-height: 160px;
+      }
+      @include media-query-tablet{
+        max-width: 100%;
       }
     }
     .btn-enviar{
@@ -83,6 +95,9 @@
       transition: all 300ms ease;
       @include media-query-mobile{
         font-size: 15px;
+      }
+      @include media-query-tablet{
+        font-size: 18px;
       }
       &:hover{
         background: #434343;
@@ -98,6 +113,9 @@
         border-radius: 3px;
         max-width: 100%;
         margin: 0 auto;
+      }
+      @include media-query-tablet{
+        max-width: 100%;
       }
     }
 }
