@@ -760,7 +760,7 @@ main {
 @media (max-width: 576px) {
   .container-form form textarea {
     max-width: 100%;
-    min-width: 350;
+    min-width: 300px;
     max-height: 160px;
   }
 }
